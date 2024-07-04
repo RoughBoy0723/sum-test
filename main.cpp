@@ -2,6 +2,6 @@
 #include "sum.h"
 
 int main(){
-	int s= sum(100);
+	int s= sum(1000);
 	printf("result = %d\n",s);
 }
