@@ -3,13 +3,13 @@
 all: sum-test
 
 sum-test: main.o sum.o
-	gcc -o sum-test main.o sum.o
+	g++ -o sum-test main.o sum.o
 
 main.o: sum.h main.cpp
-	gcc -c -o main.o main.cpp
+	g++ -c -o main.o main.cpp
 
 sum.o: sum.h sum.cpp
-	gcc -c -o sum.o sum.cpp
+	g++ -c -o sum.o sum.cpp
 
 clean:
 	rm -f sum-test
