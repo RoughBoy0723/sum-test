@@ -9,7 +9,7 @@ main.o: sum.h main.cpp
 	gcc -c -o main.o main.cpp
 
 sum.o: sum.h sum.cpp
-	gcc -c -o sum.o sum.cp
+	gcc -c -o sum.o sum.cpp
 
 clean:
 	rm -f sum_test
